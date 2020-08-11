@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Suit" duration-ms="465" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="143" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+      <class name="functionalTests.LoginTestCase">
+        <test-method status="PASS" signature="createDBConn()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="createDBConn" is-config="true" duration-ms="18" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDBConn -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="doUserRegistration()[pri:1, instance:functionalTests.LoginTestCase@5a1c0542]" name="doUserRegistration" duration-ms="19" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegistration -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:functionalTests.LoginTestCase@5a1c0542]" name="doLogin" duration-ms="11" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDBConn()[pri:0, instance:functionalTests.LoginTestCase@5a1c0542]" name="closeDBConn" is-config="true" duration-ms="1" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConn -->
+      </class> <!-- functionalTests.LoginTestCase -->
+    </test> <!-- Login Test -->
+    <test name="Soft Assertion Test" duration-ms="14" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+      <class name="functionalTests.SoftAssertions">
+        <test-method status="PASS" signature="softAssertions()[pri:0, instance:functionalTests.SoftAssertions@528931cf]" name="softAssertions" duration-ms="7" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertions -->
+      </class> <!-- functionalTests.SoftAssertions -->
+    </test> <!-- Soft Assertion Test -->
+    <test name="Dependencies Test" duration-ms="40" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+      <class name="functionalTests.TestDependencies">
+        <test-method status="PASS" signature="doUserRegistration()[pri:1, instance:functionalTests.TestDependencies@3043fe0e]" name="doUserRegistration" duration-ms="2" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegistration -->
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:functionalTests.TestDependencies@3043fe0e]" name="doLogin" duration-ms="3" started-at="2020-08-12T00:35:53 IST" depends-on-methods="functionalTests.TestDependencies.doUserRegistration" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doForgotPassword()[pri:3, instance:functionalTests.TestDependencies@3043fe0e]" name="doForgotPassword" duration-ms="8" started-at="2020-08-12T00:35:53 IST" depends-on-methods="functionalTests.TestDependencies.doUserRegistration" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doForgotPassword -->
+        <test-method status="PASS" signature="doForgotUsername()[pri:4, instance:functionalTests.TestDependencies@3043fe0e]" name="doForgotUsername" duration-ms="4" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doForgotUsername -->
+      </class> <!-- functionalTests.TestDependencies -->
+    </test> <!-- Dependencies Test -->
+    <test name="Validations Test" duration-ms="6" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+      <class name="functionalTests.Validations">
+        <test-method status="PASS" signature="validateTitles()[pri:0, instance:functionalTests.Validations@3dfc5fb8]" name="validateTitles" duration-ms="1" started-at="2020-08-12T00:35:53 IST" finished-at="2020-08-12T00:35:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitles -->
+      </class> <!-- functionalTests.Validations -->
+    </test> <!-- Validations Test -->
+  </suite> <!-- Functional Suit -->
+</testng-results>
