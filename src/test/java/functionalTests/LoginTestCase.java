@@ -11,13 +11,13 @@ public class LoginTestCase {
 	@BeforeMethod
 	public void launchBrowser() {
 
-		System.out.println("Launching Browser");
+		System.out.println("Launching Browser...");
 	}
 	
 	@AfterMethod
 	public void closeBrowser() {
 	
-	System.out.println("Closing Browser");
+	System.out.println("Closing Browser...");
 	}
 
 	@BeforeTest
